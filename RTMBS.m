@@ -48,8 +48,7 @@ else
     disp('This binary sequence does NOT pass Monobit frequency test!  It takes time: \n')
 end
 toc;
-clear bits1;
-clear S_n1;
+clear bits1 S_n1;
 
 %% 2. Frequency test within a block
 disp('2. Start Frequency test within a block, please wait.......');
