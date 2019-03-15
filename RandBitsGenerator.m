@@ -8,7 +8,6 @@ tic;    % start timing
 
 r = rand(1,n);
 bit = int8((r<0.5));
-fprintf('创建%d个比特的序列花费的时间如下：\n', n);
 fprintf('Time that creates %d-bit sequence:：\n', n);
 
 toc;    % end timing
